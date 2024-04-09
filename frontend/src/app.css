@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary, .btn-primary:hover {
+  @apply text-white font-bold bg-custom-green rounded-xl py-4 px-5 border-0 outline-green-400;
+}
+.btn-primary:hover {
+  @apply bg-green-800;
+}
+
+.btn-ghost, .btn-ghost:hover {
+  @apply text-custom-text-gray font-semibold rounded-xl py-4 px-5;
+}
